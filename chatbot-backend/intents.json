@@ -1,0 +1,308 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Hello",
+        "Good day",
+        "Welcome",
+        "What's up?",
+        "How's it going?",
+        "Good to see you!",
+        "What's new?",
+        "Nice to meet you!",
+        "Long time no see",
+        "Greetings!",
+        "How's everything?",
+        "What's happening?",
+        "How's your day?",
+        "What brings you here today?",
+        "Hey there!",
+        "Yo!",
+        "What's going on?",
+        "How are things?"
+      ],
+      "responses": [
+        "Hello! Thank you for visiting our coffee shop!",
+        "Hi there! How can I assist you today?",
+        "Welcome! What can I help you with?",
+        "It's great to see you! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Until next time",
+        "I need to go",
+        "See you soon",
+        "I'm off",
+        "Goodnight",
+        "Farewell",
+        "I'm leaving now",
+        "Talk to you later",
+        "See you around!",
+        "Have a good one!",
+        "I'm heading out",
+        "Later!",
+        "Peace out!",
+        "I'm off now",
+        "Catch you later, alligator!",
+        "Adios!"
+      ],
+      "responses": [
+        "Thank you for visiting! Come back anytime!",
+        "Have a great day ahead!",
+        "Goodbye! Hope to see you soon.",
+        "Take care! We look forward to seeing you again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I appreciate it",
+        "You're awesome",
+        "Thanks for your help",
+        "Cheers!",
+        "Many thanks",
+        "Thank you very much",
+        "Thanks for the information",
+        "Thanks for your assistance",
+        "I couldn't have done it without you!",
+        "You're the best!",
+        "Thanks a ton!",
+        "Thanks for your support",
+        "Thanks for answering my questions",
+        "That was really helpful, thank you!"
+      ],
+      "responses": [
+        "I'm happy to help!",
+        "You're welcome! Let me know if you need anything else.",
+        "Anytime! I'm here to assist you.",
+        "Glad to assist! If you have more questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Can you list your products?",
+        "What products are available?",
+        "What can I buy?",
+        "Do you have coffee beans?",
+        "What coffee-related products do you offer?",
+        "Can you tell me about your products?",
+        "What items can I find here?",
+        "Do you have any special items?",
+        "What are your best-selling products?",
+        "Can I see your menu?",
+        "What new items do you have?",
+        "Are there seasonal items available?",
+        "What unique items do you offer?",
+        "Do you have any limited edition products?",
+        "What should I try from your menu?"
+      ],
+      "responses": [
+        "We offer a wide range of coffee-based products, including Coffee Beans, Instant Coffee, Flavoured Coffee, brewing equipment, and more!",
+        "Our selection includes various coffee types, accessories, and special blends to suit every coffee lover!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Do you accept cash?",
+        "What payment methods do you offer?",
+        "Can I pay online?",
+        "Is it possible to pay via mobile payment?",
+        "What are my payment options?",
+        "Can I use my debit card?",
+        "Do you accept digital wallets?",
+        "What payment methods are available?",
+        "Are there any hidden fees for using a credit card?",
+        "Can I pay in installments?",
+        "Do you have contactless payment options?",
+        "Is there a minimum amount for card payments?",
+        "What payment methods do you recommend?",
+        "Can I get a receipt for my payment?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and Paypal for your convenience.",
+        "You can pay with most major credit cards and Paypal. We also support mobile wallets!"
+      ]
+    },
+    {
+      "tag": "purchase",
+      "patterns": [
+        "How can I purchase a product?",
+        "How can I buy a product?",
+        "I don't know how to purchase a product.",
+        "I need help with buying.",
+        "I wanna buy some coffee.",
+        "What steps do I take to make a purchase?",
+        "Can I purchase online?",
+        "Are there any discounts for first-time buyers?",
+        "What payment methods do you recommend?",
+        "Can I purchase in-store?",
+        "What do I need to know before buying?",
+        "Is there a guide on how to order?",
+        "What is the process for buying?",
+        "How do I complete my order?",
+        "Do you have a mobile app for purchases?",
+        "Is there a limit on how much I can buy?",
+        "Can I reserve an item before purchase?"
+      ],
+      "responses": [
+        "To purchase our products, simply visit our website, add items to your basket, checkout, choose a payment method, and fill in your shipping details. For any assistance, feel free to contact our sales team at: 07309 *****9."
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": [
+        "How do I reset my password?",
+        "How can I update my account information?",
+        "How can I change my account details?",
+        "I want to change my password.",
+        "What should I do if I forgot my password?",
+        "How do I delete my account?",
+        "Can I view my account details online?",
+        "What if I want to merge my accounts?",
+        "Can I access my account from multiple devices?",
+        "How do I recover my account?"
+      ],
+      "responses": [
+        "To update your account details or reset your password, please visit 'example.uk/account'. If you're having trouble, feel free to reach out to our support team."
+      ]
+    },
+    {
+      "tag": "allergy",
+      "patterns": [
+        "Are there any products that may cause allergic reactions?",
+        "I have an allergy, are there any safe products for me?",
+        "Do your products contain nuts?",
+        "Can I get allergen-free products?",
+        "I am allergic to milk, are your products safe?",
+        "I have an allergy",
+        "I'm allergic to gluten, what can I have?",
+        "Do you have dairy-free options?",
+        "Are there any allergens in your coffee?",
+        "What should I avoid if I have allergies?",
+        "Can you help me find safe products for allergies?"
+      ],
+      "responses": [
+        "Some of our products may contain allergens such as Milk or Nuts. Please refer to the ingredients list for each product or look for the 'Allergy-free' badge. For more details, visit: www.coffeeshop.uk/allergy-information."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I requested a refund, how long is the wait time for my money?",
+        "When will I receive my refund?",
+        "I refunded a product, when will I get my money back?",
+        "How can I request a refund?",
+        "I want a refund",
+        "What is the refund policy?",
+        "How do I check the status of my refund?",
+        "Can I get a refund on a sale item?",
+        "What happens if my refund is delayed?",
+        "Is there a process to appeal a refund decision?",
+        "How long does it take to process a refund?"
+      ],
+      "responses": [
+        "To request a refund, please visit the My Orders page at: example.uk/my-orders. If you’ve already requested a refund, expect to receive your funds within 14 days."
+      ]
+    },
+    {
+      "tag": "arabica",
+      "patterns": [
+        "Arabica Coffee",
+        "What does Arabica Coffee taste like?",
+        "How does Arabica Coffee taste?",
+        "I want information on Arabica Coffee.",
+        "Tell me about Arabica Coffee.",
+        "Is Arabica better than Robusta?",
+        "What are the benefits of Arabica Coffee?",
+        "Where can I buy Arabica Coffee?",
+        "How is Arabica Coffee different from other types?",
+        "What is the origin of Arabica Coffee?",
+        "What are the characteristics of Arabica Coffee?"
+      ],
+      "responses": [
+        "Arabica beans are known for their smooth, mild flavor and aromatic qualities, often with hints of fruit, sugar, and pleasant acidity. They are typically preferred for their higher quality."
+      ]
+    },
+    {
+      "tag": "robusta",
+      "patterns": [
+        "Robusta Coffee",
+        "What does Robusta Coffee taste like?",
+        "How does Robusta Coffee taste?",
+        "I want information on Robusta Coffee.",
+        "Tell me about Robusta Coffee.",
+        "Is Robusta better than Arabica?",
+        "What are the benefits of Robusta Coffee?",
+        "Where can I buy Robusta Coffee?",
+        "How is Robusta Coffee different from other types?",
+        "What is the origin of Robusta Coffee?",
+        "What are the characteristics of Robusta Coffee?"
+      ],
+      "responses": [
+        "Robusta beans have a stronger, more bitter taste and contain more caffeine than Arabica. They are often used in espresso blends for added crema and body."
+      ]
+    },
+    {
+      "tag": "brewing_methods",
+      "patterns": [
+        "What are the different brewing methods?",
+        "How can I brew coffee?",
+        "What are the best ways to make coffee?",
+        "Tell me about different brewing techniques.",
+        "How do I brew coffee using a French press?",
+        "What is the pour-over method?",
+        "How can I use a drip coffee maker?",
+        "What are the steps for brewing coffee?",
+        "How do I use an espresso machine?",
+        "What is the best way to brew coffee?",
+        "How long should I brew my coffee?",
+        "What is cold brew coffee?"
+      ],
+      "responses": [
+        "There are various brewing methods, including French press, drip coffee maker, pour-over, espresso, and cold brew. Each method highlights different flavors in the coffee. If you need specific brewing instructions, let me know!"
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "What are the shipping options?",
+        "How much does shipping cost?",
+        "How long does shipping take?",
+        "Do you ship internationally?",
+        "What shipping carriers do you use?",
+        "Can I track my order?",
+        "What are the shipping times?",
+        "Do you offer express shipping?",
+        "Is shipping free for certain orders?",
+        "How can I change my shipping address?",
+        "What if my order doesn't arrive?"
+      ],
+      "responses": [
+        "We offer various shipping options, including standard and express. Shipping costs vary based on your location and order size. You can track your order via the tracking link sent to your email after dispatch."
+      ]
+    }
+  ]
+}
